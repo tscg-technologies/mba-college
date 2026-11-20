@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admissions | MBA College Website | Management Education Demo</title>
+  <meta name="description" content="Explore the five-step MBA admission timeline, general eligibility criteria for Indian aspirants, FAQs, and admission enquiry form in this demo website." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Admissions | MBA College Website" />
+  <meta property="og:description" content="Explore the MBA admission process, eligibility guidelines, and interactive enquiry form in this modern Indian MBA college website demonstration." />
+  <meta property="og:image" content="images/hero-campus.jpeg" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Shared Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body>
+
+  <!-- Consistent Sticky Header -->
+    <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="MBA College Home">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </span>
+        <span class="brand-text">MBA COLLEGE</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="programs.html" class="nav-link">Programs</a></li>
+          <li><a href="admissions.html" class="nav-link active">Admissions</a></li>
+          <li class="nav-item-dropdown">
+            <a href="about.html" class="nav-link dropdown-toggle" id="dropdownExplore" role="button" aria-haspopup="true" aria-expanded="false">
+              <span>Explore</span>
+              <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownExplore">
+              <li>
+                <a href="about.html" class="dropdown-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  <span>About Us</span>
+                </a>
+              </li>
+              <li>
+                <a href="placements.html" class="dropdown-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                  <span>Placements</span>
+                </a>
+              </li>
+              <li>
+                <a href="campus-life.html" class="dropdown-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+                  <span>Campus Life</span>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" class="dropdown-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>Contact Us</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a href="#student-portal" class="dropdown-item dropdown-portal" data-demo-notice="Student Portal is a demonstration link. No institutional login backend is connected in this demo.">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <span>Student Portal</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="mobile-nav-cta">
+          <a href="#admission-enquiry" class="btn btn-primary">Apply Now</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#admission-enquiry" class="btn btn-primary btn-sm">Apply Now</a>
+        <button class="menu-toggle" type="button" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-box">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="sep">/</span>
+          <span aria-current="page">Admissions</span>
+        </nav>
+        <h1>Admissions</h1>
+        <p>Understand the five-step MBA admission timeline, general eligibility requirements for Indian students, and submit a demonstration enquiry.</p>
+      </div>
+    </section>
+
+    <!-- 10. Admission Process (5-Step Timeline) -->
+    <section class="section-padding bg-navy">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Admission Process</span>
+          <h2 class="section-title">Your Journey Towards an MBA Starts Here</h2>
+          <p class="section-subtitle">
+            Follow our five-step illustrative admission process from initial application to final confirmation.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper reveal">
+          <div class="timeline-steps">
+            <div class="timeline-step">
+              <div class="step-badge">01</div>
+              <div>
+                <h3>Step 01: Submit Application</h3>
+                <p>Complete the online enquiry and application form with academic details and preferred specialization.</p>
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="step-badge">02</div>
+              <div>
+                <h3>Step 02: Application Review</h3>
+                <p>The admissions team reviews submitted academic transcripts and application completeness.</p>
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="step-badge">03</div>
+              <div>
+                <h3>Step 03: Eligibility Assessment</h3>
+                <p>Evaluation of qualifying degree criteria and applicable management entrance test scores.</p>
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="step-badge">04</div>
+              <div>
+                <h3>Step 04: Personal Interaction</h3>
+                <p>Participate in an academic discussion or personal interview to assess communication and aptitude.</p>
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="step-badge">05</div>
+              <div>
+                <h3>Step 05: Admission Confirmation</h3>
+                <p>Selected candidates receive an admission offer letter and complete document verification.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center reveal">
+          <a href="#admission-enquiry" class="btn btn-primary">
+            Apply Now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <div>
+            <div class="demo-note">
+              Admission procedures shown are illustrative. Actual requirements depend on the respective institution.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. Eligibility and Admission Requirements -->
+    <section class="section-padding bg-light">
+      <div class="container">
+        <div class="eligibility-card reveal">
+          <div class="eligibility-content">
+            <span class="eyebrow">General MBA Guidelines</span>
+            <h2 class="section-title">Eligibility and Admission Requirements</h2>
+            <p>
+              General MBA eligibility criteria for Indian students pursuing postgraduate management programs:
+            </p>
+
+            <ul class="eligibility-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <div>
+                  <strong>Bachelor's Degree from a Recognized University</strong>
+                  <span>Minimum three-year undergraduate degree in any stream from a recognized Indian or international university.</span>
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <div>
+                  <strong>Academic Records</strong>
+                  <span>Complete academic transcripts across 10th standard, 12th standard, and undergraduate graduation.</span>
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <div>
+                  <strong>Entrance Examination Requirements, Where Applicable</strong>
+                  <span>Qualifying scores in national or state-level management entrance examinations, where applicable.</span>
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <div>
+                  <strong>Personal Interaction or Interview, Where Applicable</strong>
+                  <span>Group discussion, written evaluation, or personal interaction rounds to evaluate communication and analytical aptitude.</span>
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <div>
+                  <strong>Additional Documentation</strong>
+                  <span>Transfer/migration certificates, identity proof, and photographs depending on institutional requirements.</span>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#admission-enquiry" class="btn btn-royal">
+              Start Your MBA Journey Today
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <aside class="eligibility-aside">
+            <div>
+              <span class="eyebrow">Illustrative Checklist</span>
+              <h3>General Document Readiness</h3>
+              <p>Common documents kept ready by applicants during MBA admission rounds:</p>
+              <div class="eligibility-checklist">
+                <div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  10th &amp; 12th Standard Marksheets
+                </div>
+                <div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Undergraduate Degree / Provisional Certificate
+                </div>
+                <div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Entrance Score Card (Where Applicable)
+                </div>
+                <div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Transfer &amp; Conduct Certificates
+                </div>
+                <div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Government ID &amp; Photographs
+                </div>
+              </div>
+            </div>
+            <div class="demo-note" style="margin-top:0;">
+              Note: General eligibility information shown here is illustrative demonstration content and is not official college policy.
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 18. Admission Enquiry Form -->
+    <section class="section-padding" id="admission-enquiry">
+      <div class="container">
+        <div class="enquiry-section-grid">
+          <div class="enquiry-info-panel reveal">
+            <span class="eyebrow">Admission Enquiry</span>
+            <h3>Take the First Step Towards Your Future</h3>
+            <p>
+              Interested in pursuing an MBA? Share your details to explore management education opportunities.
+            </p>
+
+            <div class="enquiry-highlights">
+              <div class="enquiry-highlight-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                <div>
+                  <strong>Explore Six Specializations</strong>
+                  <span>Finance, Marketing, HR, Business Analytics, Operations, and International Business.</span>
+                </div>
+              </div>
+              <div class="enquiry-highlight-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <div>
+                  <strong>Admissions Helpdesk (Demo)</strong>
+                  <span>Phone: 0000000000 | Email: demo@example.com</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-note" style="margin-top:0;">
+              Demo form only. Your information is not transmitted or stored.
+            </div>
+          </div>
+
+          <div class="form-card reveal">
+            <form class="js-demo-form" novalidate>
+              <div class="form-grid">
+                <div class="form-group">
+                  <label class="form-label" for="admFullName">Full Name <span class="req">*</span></label>
+                  <input type="text" id="admFullName" name="fullName" class="form-control" placeholder="Enter your full name" required />
+                  <span class="error-msg">Please enter your full name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="admMobile">Mobile Number <span class="req">*</span></label>
+                  <input type="tel" id="admMobile" name="mobile" class="form-control" placeholder="10-digit Indian mobile number" maxlength="10" required />
+                  <span class="error-msg">Please enter a valid 10-digit Indian mobile number.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="admEmail">Email Address <span class="req">*</span></label>
+                  <input type="email" id="admEmail" name="email" class="form-control" placeholder="name@example.com" required />
+                  <span class="error-msg">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="admCity">City <span class="req">*</span></label>
+                  <input type="text" id="admCity" name="city" class="form-control" placeholder="e.g., Hyderabad, Bengaluru, Mumbai" required />
+                  <span class="error-msg">Please enter your city.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="admQualification">Graduation Qualification <span class="req">*</span></label>
+                  <select id="admQualification" name="qualification" class="form-control" required>
+                    <option value="">Select qualification</option>
+                    <option value="B.Com">B.Com / Bachelor of Commerce</option>
+                    <option value="BBA/BMS">BBA / BMS / Management</option>
+                    <option value="B.Tech/B.E.">B.Tech / B.E. / Engineering</option>
+                    <option value="B.Sc">B.Sc / Bachelor of Science</option>
+                    <option value="B.A.">B.A. / Bachelor of Arts</option>
+                    <option value="Other">Other Undergraduate Degree</option>
+                  </select>
+                  <span class="error-msg">Please select your graduation qualification.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="admSpecialization">Preferred MBA Specialization <span class="req">*</span></label>
+                  <select id="admSpecialization" name="specialization" class="form-control" required>
+                    <option value="">Select specialization</option>
+                    <option value="MBA in Finance">MBA in Finance</option>
+                    <option value="MBA in Marketing">MBA in Marketing</option>
+                    <option value="MBA in Human Resource Management">MBA in Human Resource Management</option>
+                    <option value="MBA in Business Analytics">MBA in Business Analytics</option>
+                    <option value="MBA in Operations Management">MBA in Operations Management</option>
+                    <option value="MBA in International Business">MBA in International Business</option>
+                  </select>
+                  <span class="error-msg">Please select a preferred MBA specialization.</span>
+                </div>
+
+                <div class="form-group full-width">
+                  <label class="form-label" for="admPercentage">Graduation Percentage <span class="req">*</span></label>
+                  <input type="number" id="admPercentage" name="percentage" class="form-control" placeholder="Enter percentage (e.g., 72.5)" min="35" max="100" step="0.1" required />
+                  <span class="error-msg">Please enter a valid graduation percentage between 35 and 100.</span>
+                </div>
+
+                <div class="form-group full-width">
+                  <label class="form-label" for="admMessage">Message <span class="req">*</span></label>
+                  <textarea id="admMessage" name="message" rows="3" class="form-control" placeholder="Share any questions regarding programs, eligibility, or campus facilities..." required></textarea>
+                  <span class="error-msg">Please enter a short message or enquiry.</span>
+                </div>
+              </div>
+
+              <div style="margin-top: 22px;">
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  Submit Admission Enquiry
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+
+              <div class="form-disclaimer">
+                Demo form only. Your information is not transmitted or stored.
+              </div>
+
+              <div class="form-success-alert" role="status" aria-live="polite">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Thank you! Your demonstration admission enquiry has been validated. (Demo form only: no data was transmitted or stored.)</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 17. FAQ Section -->
+    <section class="section-padding bg-light" id="faq">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Frequently Asked Questions</span>
+          <h2 class="section-title">MBA Admission FAQs</h2>
+          <p class="section-subtitle">
+            Answers to common questions about MBA eligibility, specializations, duration, and career readiness.
+          </p>
+        </div>
+
+        <div class="faq-container reveal">
+          <div class="faq-item active">
+            <button class="faq-trigger" type="button" aria-expanded="true">
+              <span>What is an MBA program?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                A Master of Business Administration (MBA) is a postgraduate management degree designed to equip students with foundational and advanced knowledge across business strategy, finance, marketing, human resources, operations, and analytics, alongside leadership and decision-making skills.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>What are the general eligibility criteria for MBA admission?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                In India, candidates generally require a Bachelor's degree of minimum three years duration in any discipline from a recognized university, qualifying academic scores as specified by the respective institution, and valid entrance examination scores or personal interaction performance where applicable.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>What specializations are available?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                This demonstration website showcases six popular MBA specializations: MBA in Finance, MBA in Marketing, MBA in Human Resource Management, MBA in Business Analytics, MBA in Operations Management, and MBA in International Business.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>What is the duration of an MBA program?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                Full-time postgraduate MBA programs in India are typically structured over two academic years (commonly divided into four semesters), combining core management courses in the first year with specialized electives and project work in the second year.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>Are entrance examinations required?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                Many MBA institutions in India consider scores from national or state-level management aptitude tests alongside undergraduate academic performance and personal interviews. Specific entrance test requirements depend on the policies of the respective institution.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>What career opportunities are available after an MBA?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                MBA graduates pursue management and analyst roles across diverse sectors including Banking &amp; Finance, Consulting, Information Technology, Retail &amp; E-commerce, Manufacturing, Supply Chain, Healthcare Management, and Marketing &amp; Media.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>What is placement assistance?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                Placement assistance refers to career preparation initiatives such as resume workshops, aptitude training, group discussion practice, mock interviews, and industry interaction sessions designed to help students prepare for corporate recruitment processes.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>How can I apply for admission?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                You can use the interactive Admission Enquiry Form on this page to test how prospective students submit their academic profile and specialization preference.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Consistent Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo">
+            <span class="brand-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </span>
+            <span class="footer-brand-title">MBA COLLEGE WEBSITE</span>
+          </a>
+          <p class="footer-desc">
+            A modern, multi-page management education website demonstration showcasing academic programs, admissions, placements, faculty, and campus life for Indian educational institutions.
+          </p>
+          <div class="social-decorative" aria-label="Decorative social media icons">
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </span>
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </span>
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </span>
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </span>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Academic Links</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="placements.html">Placements</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Campus &amp; Community</h3>
+          <ul class="footer-links">
+            <li><a href="campus-life.html">Campus Life</a></li>
+            <li><a href="about.html#faculty">Faculty</a></li>
+            <li><a href="campus-life.html#events">Events</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Contact Details (Demo)</h3>
+          <ul class="footer-contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Phone: 0000000000</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email: <a href="mailto:demo@example.com">demo@example.com</a></span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Address: Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer-box">
+        <p class="footer-disclaimer-text">
+          This is a fictional educational website demonstration. All institutional details, statistics, faculty profiles, student testimonials, placement information, and campus facilities are illustrative and do not represent an actual educational institution.
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 MBA College Website. Demo Website – All Rights Reserved.</div>
+        <div>Designed for Management Education Website Demonstration</div>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+  <div class="demo-toast" id="demoToast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

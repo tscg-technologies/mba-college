@@ -1,0 +1,1693 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MBA College Website | Management Education Demo</title>
+  <meta name="description" content="Explore a modern MBA college website demo featuring management programs, admissions, placements, campus life, faculty, and student experiences in India." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="MBA College Website | Management Education Demo" />
+  <meta property="og:description" content="Explore a modern MBA college website demo featuring management programs, admissions, placements, campus life, faculty, and student experiences in India." />
+  <meta property="og:image" content="images/hero-campus.jpeg" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Shared Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body>
+
+  <!-- ====================================================================
+       4. HEADER AND NAVIGATION (CONSISTENT ACROSS ALL PAGES)
+       ==================================================================== -->
+    <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="MBA College Home">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </span>
+        <span class="brand-text">MBA COLLEGE</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="programs.html" class="nav-link">Programs</a></li>
+          <li><a href="admissions.html" class="nav-link">Admissions</a></li>
+          <li class="nav-item-dropdown">
+            <a href="about.html" class="nav-link dropdown-toggle" id="dropdownExplore" role="button" aria-haspopup="true" aria-expanded="false">
+              <span>Explore</span>
+              <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownExplore">
+              <li>
+                <a href="about.html" class="dropdown-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  <span>About Us</span>
+                </a>
+              </li>
+              <li>
+                <a href="placements.html" class="dropdown-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                  <span>Placements</span>
+                </a>
+              </li>
+              <li>
+                <a href="campus-life.html" class="dropdown-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+                  <span>Campus Life</span>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" class="dropdown-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>Contact Us</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a href="#student-portal" class="dropdown-item dropdown-portal" data-demo-notice="Student Portal is a demonstration link. No institutional login backend is connected in this demo.">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <span>Student Portal</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="mobile-nav-cta">
+          <a href="#admission-enquiry" class="btn btn-primary">Apply Now</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#admission-enquiry" class="btn btn-primary btn-sm">Apply Now</a>
+        <button class="menu-toggle" type="button" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-box">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====================================================================
+         5. HOMEPAGE – HERO SECTION
+         ==================================================================== -->
+    <section class="hero-section">
+      <div class="hero-bg">
+        <div class="ai-media">
+          <img src="images/hero-campus.jpeg" alt="Modern Indian business school campus architecture with green landscaping and students walking" />
+          <div class="ai-placeholder-ui" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg>
+            <div class="ai-placeholder-title">Modern Business School Campus</div>
+            <span class="ai-placeholder-tag">AI Visual Asset • hero-campus.jpeg</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            Postgraduate Management Education • Demo Website
+          </div>
+          <h1 class="hero-title">Shape Your Future. <span>Become Tomorrow's Business Leader.</span></h1>
+          <p class="hero-description">
+            Discover industry-focused MBA programs designed to develop future-ready leaders, strategic thinkers, and innovative business professionals.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#admission-enquiry" class="btn btn-primary">
+              Apply for Admission
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#mba-programs" class="btn btn-outline-white">
+              Explore MBA Programs
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual-panel reveal">
+          <div class="hero-showcase-frame">
+            <div class="ai-media" style="height:100%; border-radius:0;">
+              <img src="images/hero-campus.jpeg" alt="Contemporary academic campus building with students in courtyard" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                <div class="ai-placeholder-title">Campus Architecture View</div>
+                <span class="ai-placeholder-tag">hero-campus.jpeg</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Three Floating Information Cards -->
+          <div class="hero-floating-cards">
+            <div class="floating-card">
+              <div class="floating-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              </div>
+              <h3>Industry-Oriented Learning</h3>
+              <p>Curriculum aligned with contemporary corporate frameworks.</p>
+            </div>
+            <div class="floating-card">
+              <div class="floating-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              </div>
+              <h3>Practical Business Education</h3>
+              <p>Case studies, live simulations, and analytical problem-solving.</p>
+            </div>
+            <div class="floating-card">
+              <div class="floating-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+              </div>
+              <h3>Future-Ready Skills</h3>
+              <p>Leadership, communication, and data-driven decision capabilities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         6. STATISTICS SECTION (ILLUSTRATIVE DEMO FIGURES)
+         ==================================================================== -->
+    <section class="stats-section" aria-label="Illustrative Academic Highlights">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card reveal">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <div class="stat-number" data-counter="15" data-suffix="+">15+</div>
+            <div class="stat-label">Years of Academic Excellence</div>
+            <div class="stat-tag">Illustrative Demo Metric</div>
+          </div>
+
+          <div class="stat-card reveal">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="stat-number" data-counter="25" data-suffix="+">25+</div>
+            <div class="stat-label">Industry Mentors</div>
+            <div class="stat-tag">Illustrative Demo Metric</div>
+          </div>
+
+          <div class="stat-card reveal">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </div>
+            <div class="stat-number" data-counter="40" data-suffix="+">40+</div>
+            <div class="stat-label">Learning Modules</div>
+            <div class="stat-tag">Illustrative Demo Metric</div>
+          </div>
+
+          <div class="stat-card reveal">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="stat-number" data-counter="500" data-suffix="+">500+</div>
+            <div class="stat-label">Student Community</div>
+            <div class="stat-tag">Illustrative Demo Metric</div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <div class="demo-note">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            Note: All statistics shown above are illustrative demonstration figures for website preview purposes only.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         7. ABOUT OUR COLLEGE
+         ==================================================================== -->
+    <section class="section-padding" id="about-college">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-wrapper reveal">
+            <div class="ai-media about-main-image">
+              <img src="images/about-campus.jpeg" alt="Modern campus courtyard and classroom learning environment" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg>
+                <div class="ai-placeholder-title">About Our College Campus</div>
+                <span class="ai-placeholder-tag">about-campus.jpeg</span>
+              </div>
+            </div>
+            <div class="about-accent-badge">
+              <strong>Holistic MBA Education</strong>
+              <span>Combining analytical rigour, ethical leadership, and practical business acumen.</span>
+            </div>
+          </div>
+
+          <div class="about-content reveal">
+            <span class="eyebrow">About Our College</span>
+            <h2 class="section-title">Developing the Next Generation of Business Leaders</h2>
+            <p class="section-subtitle">
+              Management education is more than textbooks and examinations. A modern MBA learning environment helps students develop business knowledge, leadership abilities, analytical thinking, and professional skills.
+            </p>
+
+            <div class="mv-cards">
+              <div class="mv-card">
+                <h3>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-royal)" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                  Our Mission
+                </h3>
+                <p>"To provide a learning environment that encourages knowledge, innovation, ethical leadership, and professional development."</p>
+              </div>
+              <div class="mv-card vision">
+                <h3>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-gold-hover)" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  Our Vision
+                </h3>
+                <p>"To inspire future business leaders who contribute positively to organisations and society."</p>
+              </div>
+            </div>
+
+            <div class="core-values-box">
+              <div class="core-values-title">Core Values</div>
+              <div class="values-pills">
+                <span class="value-pill">Excellence</span>
+                <span class="value-pill">Innovation</span>
+                <span class="value-pill">Integrity</span>
+                <span class="value-pill">Leadership</span>
+                <span class="value-pill">Collaboration</span>
+              </div>
+            </div>
+
+            <a href="about.html" class="btn btn-navy">
+              Discover More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         8. MBA PROGRAMS SECTION
+         ==================================================================== -->
+    <section class="section-padding bg-light" id="mba-programs">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">MBA Programs</span>
+          <h2 class="section-title">Explore Our MBA Programs</h2>
+          <p class="section-subtitle">
+            Comprehensive postgraduate management specializations structured to build domain mastery and cross-functional leadership.
+          </p>
+        </div>
+
+        <!-- Program Filter Navigation -->
+        <div class="program-filter-bar reveal" role="tablist" aria-label="Filter MBA Programs">
+          <button type="button" class="program-filter-btn active" data-filter="all">All Specializations</button>
+          <button type="button" class="program-filter-btn" data-filter="finance-analytics">Finance &amp; Analytics</button>
+          <button type="button" class="program-filter-btn" data-filter="strategy-growth">Marketing &amp; Global Business</button>
+          <button type="button" class="program-filter-btn" data-filter="people-operations">HR &amp; Operations</button>
+        </div>
+
+        <div class="programs-grid">
+          <!-- Program 1: MBA in Finance -->
+          <article class="program-card reveal" data-category="finance-analytics">
+            <div class="program-card-top">
+              <div class="program-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              </div>
+              <h3 class="program-title">MBA in Finance</h3>
+              <p class="program-desc">Develop strong analytical capabilities in corporate valuation, capital markets, risk management, and strategic financial leadership.</p>
+              <div class="program-subjects-label">Key Subjects</div>
+              <ul class="program-subjects">
+                <li>Financial Management</li>
+                <li>Investment Analysis</li>
+                <li>Corporate Finance</li>
+                <li>Financial Planning</li>
+              </ul>
+            </div>
+            <a href="programs.html#finance" class="program-link">
+              Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <!-- Program 2: MBA in Marketing -->
+          <article class="program-card reveal" data-category="strategy-growth">
+            <div class="program-card-top">
+              <div class="program-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <h3 class="program-title">MBA in Marketing</h3>
+              <p class="program-desc">Master modern brand architecture, market research, digital growth frameworks, and customer-centric commercial strategy.</p>
+              <div class="program-subjects-label">Key Subjects</div>
+              <ul class="program-subjects">
+                <li>Digital Marketing</li>
+                <li>Brand Management</li>
+                <li>Consumer Behaviour</li>
+                <li>Marketing Strategy</li>
+              </ul>
+            </div>
+            <a href="programs.html#marketing" class="program-link">
+              Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <!-- Program 3: MBA in Human Resource Management -->
+          <article class="program-card reveal" data-category="people-operations">
+            <div class="program-card-top">
+              <div class="program-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="program-title">MBA in Human Resource Management</h3>
+              <p class="program-desc">Build expertise in organizational design, talent acquisition, performance management, and workplace leadership culture.</p>
+              <div class="program-subjects-label">Key Subjects</div>
+              <ul class="program-subjects">
+                <li>Talent Management</li>
+                <li>Organizational Behaviour</li>
+                <li>Recruitment Strategy</li>
+                <li>Employee Relations</li>
+              </ul>
+            </div>
+            <a href="programs.html#hr" class="program-link">
+              Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <!-- Program 4: MBA in Business Analytics -->
+          <article class="program-card reveal" data-category="finance-analytics">
+            <div class="program-card-top">
+              <div class="program-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              </div>
+              <h3 class="program-title">MBA in Business Analytics</h3>
+              <p class="program-desc">Transform complex enterprise datasets into actionable strategic insights through statistical modelling and predictive intelligence.</p>
+              <div class="program-subjects-label">Key Subjects</div>
+              <ul class="program-subjects">
+                <li>Business Intelligence</li>
+                <li>Data Analytics</li>
+                <li>Business Statistics</li>
+                <li>Decision Science</li>
+              </ul>
+            </div>
+            <a href="programs.html#analytics" class="program-link">
+              Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <!-- Program 5: MBA in Operations Management -->
+          <article class="program-card reveal" data-category="people-operations">
+            <div class="program-card-top">
+              <div class="program-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              </div>
+              <h3 class="program-title">MBA in Operations Management</h3>
+              <p class="program-desc">Optimize global value chains, manufacturing workflows, quality standards, and resilient logistics architectures.</p>
+              <div class="program-subjects-label">Key Subjects</div>
+              <ul class="program-subjects">
+                <li>Supply Chain Management</li>
+                <li>Operations Strategy</li>
+                <li>Quality Management</li>
+                <li>Logistics</li>
+              </ul>
+            </div>
+            <a href="programs.html#operations" class="program-link">
+              Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <!-- Program 6: MBA in International Business -->
+          <article class="program-card reveal" data-category="strategy-growth">
+            <div class="program-card-top">
+              <div class="program-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <h3 class="program-title">MBA in International Business</h3>
+              <p class="program-desc">Navigate cross-border trade dynamics, multinational strategy, foreign exchange environments, and multicultural leadership.</p>
+              <div class="program-subjects-label">Key Subjects</div>
+              <ul class="program-subjects">
+                <li>Global Business Strategy</li>
+                <li>International Trade</li>
+                <li>Global Marketing</li>
+                <li>Cross-Cultural Management</li>
+              </ul>
+            </div>
+            <a href="programs.html#international" class="program-link">
+              Learn More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </article>
+        </div>
+
+        <div class="text-center">
+          <div class="demo-note">
+            All program details and curriculum modules shown above are illustrative demonstration content and do not claim institutional accreditation.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         9. WHY CHOOSE OUR COLLEGE?
+         ==================================================================== -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Why Choose Our College</span>
+          <h2 class="section-title">An Environment Designed for Your Success</h2>
+          <p class="section-subtitle">
+            Our academic framework integrates classroom theory with experiential learning, mentorship, and career readiness.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <h3>Industry-Oriented Curriculum</h3>
+            <p>Course modules are structured around emerging business challenges, digital transformation, and modern management practices.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Experienced Academic Mentors</h3>
+            <p>Learn through structured faculty guidance, interactive seminars, and personalized academic mentoring sessions.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <h3>Practical Case Studies</h3>
+            <p>Analyze real-world corporate scenarios, business simulations, and strategic decision-making frameworks in collaborative teams.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>Modern Learning Facilities</h3>
+            <p>Smart amphitheatre classrooms, digital knowledge libraries, seminar halls, and dedicated collaborative study spaces.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>Leadership Development</h3>
+            <p>Executive communication workshops, management clubs, and team leadership initiatives that build confidence and poise.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <h3>Career Preparation Support</h3>
+            <p>Dedicated training in resume presentation, group discussions, aptitude readiness, and mock corporate interviews.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         10. ADMISSION PROCESS (5-STEP TIMELINE)
+         ==================================================================== -->
+    <section class="section-padding bg-navy" id="admissions">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Admissions</span>
+          <h2 class="section-title">Your Journey Towards an MBA Starts Here</h2>
+          <p class="section-subtitle">
+            A streamlined, transparent five-step admission workflow designed to guide prospective management students.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper reveal">
+          <div class="timeline-steps">
+            <div class="timeline-step">
+              <div class="step-badge">01</div>
+              <div>
+                <h3>Step 01: Submit Application</h3>
+                <p>Complete the online enquiry and application form with academic details and preferred specialization.</p>
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="step-badge">02</div>
+              <div>
+                <h3>Step 02: Application Review</h3>
+                <p>The admissions team reviews submitted academic transcripts and application completeness.</p>
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="step-badge">03</div>
+              <div>
+                <h3>Step 03: Eligibility Assessment</h3>
+                <p>Evaluation of qualifying degree criteria and applicable management entrance test scores.</p>
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="step-badge">04</div>
+              <div>
+                <h3>Step 04: Personal Interaction</h3>
+                <p>Participate in an academic discussion or personal interview to assess communication and aptitude.</p>
+              </div>
+            </div>
+
+            <div class="timeline-step">
+              <div class="step-badge">05</div>
+              <div>
+                <h3>Step 05: Admission Confirmation</h3>
+                <p>Selected candidates receive an admission offer letter and complete document verification.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center reveal">
+          <a href="#admission-enquiry" class="btn btn-primary">
+            Apply Now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <div>
+            <div class="demo-note">
+              Admission procedures shown are illustrative. Actual requirements depend on the respective institution.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         11. ELIGIBILITY AND ADMISSION REQUIREMENTS
+         ==================================================================== -->
+    <section class="section-padding bg-light">
+      <div class="container">
+        <div class="eligibility-card reveal">
+          <div class="eligibility-content">
+            <span class="eyebrow">General MBA Guidelines</span>
+            <h2 class="section-title">Eligibility and Admission Requirements</h2>
+            <p>
+              Below is an overview of general MBA admission eligibility criteria commonly followed across postgraduate management programs in India:
+            </p>
+
+            <ul class="eligibility-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <div>
+                  <strong>Bachelor's Degree from a Recognized University</strong>
+                  <span>Completion of a minimum three-year undergraduate degree in any discipline from a recognized university (final-year undergraduate students may also apply provisionally, where applicable).</span>
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <div>
+                  <strong>Academic Records</strong>
+                  <span>Consistent academic performance across 10th standard, 12th standard, and undergraduate degree examinations as per applicable norms.</span>
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <div>
+                  <strong>Entrance Examination Requirements, Where Applicable</strong>
+                  <span>Valid scores from national or state-level management aptitude examinations, where applicable to the admission category.</span>
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <div>
+                  <strong>Personal Interaction or Interview, Where Applicable</strong>
+                  <span>Participation in group discussions, written analytical exercises, or personal interaction rounds as part of holistic candidate evaluation.</span>
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <div>
+                  <strong>Additional Documentation</strong>
+                  <span>Academic transcripts, transfer/migration certificates, identity proof, and photographs depending on institutional requirements.</span>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#admission-enquiry" class="btn btn-royal">
+              Start Your MBA Journey Today
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <aside class="eligibility-aside">
+            <div>
+              <span class="eyebrow">Illustrative Checklist</span>
+              <h3>Indicative Document Readiness</h3>
+              <p>Aspirants preparing for MBA admissions generally keep the following academic records ready for verification:</p>
+              <div class="eligibility-checklist">
+                <div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  10th &amp; 12th Standard Marksheets
+                </div>
+                <div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Undergraduate Semester Transcripts
+                </div>
+                <div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Provisional / Degree Certificate
+                </div>
+                <div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Entrance Score Card (Where Applicable)
+                </div>
+                <div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Passport-Size Photographs &amp; ID Proof
+                </div>
+              </div>
+            </div>
+            <div class="demo-note" style="margin-top:0;">
+              Note: This section presents general MBA eligibility information for Indian students as demonstration content and is not official college policy.
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         12. PLACEMENTS AND CAREER DEVELOPMENT
+         ==================================================================== -->
+    <section class="section-padding" id="placements">
+      <div class="container">
+        <div class="placement-top-grid">
+          <div class="reveal">
+            <span class="eyebrow">Placements &amp; Career Readiness</span>
+            <h2 class="section-title">Preparing Students for the Professional World</h2>
+            <p class="section-subtitle">
+              A strong management education experience combines academic knowledge with career preparation, practical projects, professional development, and industry exposure.
+            </p>
+
+            <!-- Four Illustrative Statistic Cards -->
+            <div class="placement-stats-grid">
+              <div class="placement-stat-box">
+                <div class="placement-stat-value" data-counter="95" data-suffix="%">95%</div>
+                <div class="placement-stat-title">Placement Assistance</div>
+              </div>
+              <div class="placement-stat-box">
+                <div class="placement-stat-value" data-prefix="₹" data-counter="8.5" data-decimals="1" data-suffix=" LPA">₹8.5 LPA</div>
+                <div class="placement-stat-title">Illustrative Average Package</div>
+              </div>
+              <div class="placement-stat-box">
+                <div class="placement-stat-value" data-prefix="₹" data-counter="15" data-suffix=" LPA">₹15 LPA</div>
+                <div class="placement-stat-title">Illustrative Highest Package</div>
+              </div>
+              <div class="placement-stat-box">
+                <div class="placement-stat-value" data-counter="50" data-suffix="+">50+</div>
+                <div class="placement-stat-title">Mock Interview Sessions</div>
+              </div>
+            </div>
+
+            <div class="demo-note">
+              <strong>Disclaimer:</strong> These are fictional demonstration figures, not actual placement records, verified achievements, or guaranteed salaries.
+            </div>
+          </div>
+
+          <div class="reveal">
+            <div class="ai-media placement-media">
+              <img src="images/placements.jpeg" alt="Career development workshop and mock corporate interview session for MBA students" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                <div class="ai-placeholder-title">Career Preparation &amp; Mock Interviews</div>
+                <span class="ai-placeholder-tag">placements.jpeg</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Six Industry Sectors -->
+        <div class="reveal">
+          <h3 class="sectors-heading">Illustrative Career Domains &amp; Industry Sectors</h3>
+          <div class="sectors-grid">
+            <div class="sector-card">
+              <div class="sector-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              </div>
+              <h4>Banking &amp; Finance</h4>
+            </div>
+            <div class="sector-card">
+              <div class="sector-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+              </div>
+              <h4>Consulting</h4>
+            </div>
+            <div class="sector-card">
+              <div class="sector-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </div>
+              <h4>Technology</h4>
+            </div>
+            <div class="sector-card">
+              <div class="sector-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              </div>
+              <h4>Retail &amp; E-commerce</h4>
+            </div>
+            <div class="sector-card">
+              <div class="sector-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/></svg>
+              </div>
+              <h4>Manufacturing</h4>
+            </div>
+            <div class="sector-card">
+              <div class="sector-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <h4>Marketing &amp; Media</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         13. FACULTY SECTION (GENERIC FICTIONAL DEMO PROFILES)
+         ==================================================================== -->
+    <section class="section-padding bg-light" id="faculty">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Academic Mentors</span>
+          <h2 class="section-title">Learn From Experienced Academic Mentors</h2>
+          <p class="section-subtitle">
+            Illustrative faculty profiles demonstrating how academic mentors and subject specialists are presented.
+          </p>
+        </div>
+
+        <div class="faculty-grid">
+          <article class="faculty-card reveal">
+            <div class="ai-media faculty-photo">
+              <img src="images/faculty-01.jpeg" alt="AI-generated fictional portrait of Faculty Member 01 specializing in Finance" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                <div class="ai-placeholder-title">Faculty Member 01</div>
+                <span class="ai-placeholder-tag">faculty-01.jpeg</span>
+              </div>
+            </div>
+            <div class="faculty-body">
+              <span class="faculty-dept">Specialization: Finance</span>
+              <h3 class="faculty-name">Faculty Member 01 – Finance</h3>
+              <div class="faculty-role">Senior Academic Mentor (Demo Profile)</div>
+              <p class="faculty-bio">Focuses on corporate finance, capital budgeting, investment analysis, and financial risk management methodologies.</p>
+              <div class="faculty-demo-tag">Illustrative Demonstration Content</div>
+            </div>
+          </article>
+
+          <article class="faculty-card reveal">
+            <div class="ai-media faculty-photo">
+              <img src="images/faculty-02.jpeg" alt="AI-generated fictional portrait of Faculty Member 02 specializing in Marketing" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                <div class="ai-placeholder-title">Faculty Member 02</div>
+                <span class="ai-placeholder-tag">faculty-02.jpeg</span>
+              </div>
+            </div>
+            <div class="faculty-body">
+              <span class="faculty-dept">Specialization: Marketing</span>
+              <h3 class="faculty-name">Faculty Member 02 – Marketing</h3>
+              <div class="faculty-role">Academic Mentor (Demo Profile)</div>
+              <p class="faculty-bio">Specializes in consumer behaviour, strategic brand management, digital marketing channels, and market research.</p>
+              <div class="faculty-demo-tag">Illustrative Demonstration Content</div>
+            </div>
+          </article>
+
+          <article class="faculty-card reveal">
+            <div class="ai-media faculty-photo">
+              <img src="images/faculty-03.jpeg" alt="AI-generated fictional portrait of Faculty Member 03 specializing in Business Analytics" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                <div class="ai-placeholder-title">Faculty Member 03</div>
+                <span class="ai-placeholder-tag">faculty-03.jpeg</span>
+              </div>
+            </div>
+            <div class="faculty-body">
+              <span class="faculty-dept">Specialization: Business Analytics</span>
+              <h3 class="faculty-name">Faculty Member 03 – Business Analytics</h3>
+              <div class="faculty-role">Academic Mentor (Demo Profile)</div>
+              <p class="faculty-bio">Guides students in business intelligence, statistical modelling, predictive analytics, and quantitative decision science.</p>
+              <div class="faculty-demo-tag">Illustrative Demonstration Content</div>
+            </div>
+          </article>
+
+          <article class="faculty-card reveal">
+            <div class="ai-media faculty-photo">
+              <img src="images/faculty-04.jpeg" alt="AI-generated fictional portrait of Faculty Member 04 specializing in Human Resources" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                <div class="ai-placeholder-title">Faculty Member 04</div>
+                <span class="ai-placeholder-tag">faculty-04.jpeg</span>
+              </div>
+            </div>
+            <div class="faculty-body">
+              <span class="faculty-dept">Specialization: Human Resources</span>
+              <h3 class="faculty-name">Faculty Member 04 – Human Resources</h3>
+              <div class="faculty-role">Academic Mentor (Demo Profile)</div>
+              <p class="faculty-bio">Mentors students in organizational behaviour, talent strategy, leadership communication, and employee relations.</p>
+              <div class="faculty-demo-tag">Illustrative Demonstration Content</div>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center">
+          <div class="demo-note">
+            All faculty profiles above use generic identifiers and AI-generated portraits for demonstration purposes only.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         14. CAMPUS LIFE (8-ITEM GALLERY WITH LIGHTBOX)
+         ==================================================================== -->
+    <section class="section-padding" id="campus-life">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Campus Life</span>
+          <h2 class="section-title">Experience Life Beyond the Classroom</h2>
+          <p class="section-subtitle">
+            Explore our illustrative AI-generated showcase of modern academic spaces, collaborative lounges, and student activities.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- 1. Modern College Campus -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Modern College Campus" data-subtitle="Fictional Demonstration Environment • Architectural Exterior">
+            <div class="ai-media">
+              <img src="images/campus-gallery-01.jpeg" alt="Modern College Campus exterior with landscaped lawns" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Modern College Campus</div>
+                <span class="ai-placeholder-tag">campus-gallery-01.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Modern College Campus</h3>
+              <span class="gallery-caption-sub">Contemporary Architecture</span>
+            </div>
+          </div>
+
+          <!-- 2. Smart Classrooms -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Smart Classrooms" data-subtitle="Fictional Demonstration Environment • Interactive Learning">
+            <div class="ai-media">
+              <img src="images/classroom.jpeg" alt="Smart Classroom with tiered seating and interactive audio-visual setup" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Smart Classrooms</div>
+                <span class="ai-placeholder-tag">classroom.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Smart Classrooms</h3>
+              <span class="gallery-caption-sub">Interactive Case Discussions</span>
+            </div>
+          </div>
+
+          <!-- 3. Seminar Hall -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Seminar Hall" data-subtitle="Fictional Demonstration Environment • Executive Conferences">
+            <div class="ai-media">
+              <img src="images/seminar.jpeg" alt="Modern Seminar Hall and auditorium for academic conferences" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Seminar Hall</div>
+                <span class="ai-placeholder-tag">seminar.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Seminar Hall</h3>
+              <span class="gallery-caption-sub">Conferences &amp; Guest Lectures</span>
+            </div>
+          </div>
+
+          <!-- 4. Library and Study Spaces -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Library and Study Spaces" data-subtitle="Fictional Demonstration Environment • Knowledge Resource Centre">
+            <div class="ai-media">
+              <img src="images/library.jpeg" alt="Library and Study Spaces with management books and digital terminals" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Library and Study Spaces</div>
+                <span class="ai-placeholder-tag">library.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Library and Study Spaces</h3>
+              <span class="gallery-caption-sub">Academic &amp; Digital Resources</span>
+            </div>
+          </div>
+
+          <!-- 5. Student Collaboration -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Student Collaboration" data-subtitle="Fictional Demonstration Environment • Peer Learning">
+            <div class="ai-media">
+              <img src="images/student-life.jpeg" alt="MBA students collaborating on business projects in a modern lounge" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Student Collaboration</div>
+                <span class="ai-placeholder-tag">student-life.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Student Collaboration</h3>
+              <span class="gallery-caption-sub">Teamwork &amp; Peer Learning</span>
+            </div>
+          </div>
+
+          <!-- 6. Cultural Events -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Cultural Events" data-subtitle="Fictional Demonstration Environment • Student Celebrations">
+            <div class="ai-media">
+              <img src="images/campus-gallery-02.jpeg" alt="Cultural Events and student celebrations on campus" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Cultural Events</div>
+                <span class="ai-placeholder-tag">campus-gallery-02.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Cultural Events</h3>
+              <span class="gallery-caption-sub">Vibrant Campus Community</span>
+            </div>
+          </div>
+
+          <!-- 7. Management Workshops -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Management Workshops" data-subtitle="Fictional Demonstration Environment • Executive Skill Sessions">
+            <div class="ai-media">
+              <img src="images/campus-gallery-03.jpeg" alt="Management Workshops and executive round-table sessions" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Management Workshops</div>
+                <span class="ai-placeholder-tag">campus-gallery-03.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Management Workshops</h3>
+              <span class="gallery-caption-sub">Leadership &amp; Strategy Labs</span>
+            </div>
+          </div>
+
+          <!-- 8. Sports and Recreation -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Sports and Recreation" data-subtitle="Fictional Demonstration Environment • Wellness &amp; Athletics">
+            <div class="ai-media">
+              <img src="images/campus-gallery-04.jpeg" alt="Sports and Recreation facilities on college campus" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Sports and Recreation</div>
+                <span class="ai-placeholder-tag">campus-gallery-04.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Sports and Recreation</h3>
+              <span class="gallery-caption-sub">Fitness &amp; Outdoor Courts</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <div class="demo-note">
+            All campus gallery visuals are AI-generated representations of fictional demonstration environments.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         15. STUDENT TESTIMONIALS (SAMPLE DEMONSTRATION CONTENT)
+         ==================================================================== -->
+    <section class="section-padding bg-light" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Sample Testimonials – Demonstration Content</span>
+          <h2 class="section-title">Student Experiences</h2>
+          <p class="section-subtitle">
+            Fictional sample testimonials illustrating how student perspectives can be showcased on an institutional website.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card reveal">
+            <div>
+              <div class="quote-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+              </div>
+              <p class="testimonial-text">
+                "The case-based classroom sessions and financial modelling workshops helped me connect theoretical concepts with practical corporate analysis. Collaborative group projects significantly improved my presentation skills."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="student-avatar" aria-hidden="true">S1</div>
+              <div class="student-meta">
+                <h4>MBA Student 01 – Finance</h4>
+                <span>Specialization: Finance (Sample Testimonial)</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div>
+              <div class="quote-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+              </div>
+              <p class="testimonial-text">
+                "Participating in strategy competitions and consumer behaviour labs gave me clarity on how modern brands communicate. Regular mentor feedback sessions prepared me well for professional interviews."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="student-avatar" aria-hidden="true">S2</div>
+              <div class="student-meta">
+                <h4>MBA Student 02 – Marketing</h4>
+                <span>Specialization: Marketing (Sample Testimonial)</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div>
+              <div class="quote-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+              </div>
+              <p class="testimonial-text">
+                "Learning business intelligence and decision science alongside core management subjects provided a balanced perspective on how data supports executive decision-making across industries."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="student-avatar" aria-hidden="true">S3</div>
+              <div class="student-meta">
+                <h4>MBA Student 03 – Business Analytics</h4>
+                <span>Specialization: Business Analytics (Sample Testimonial)</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center">
+          <div class="demo-note">
+            <strong>Sample Testimonials – Demonstration Content:</strong> The student experiences above use generic identifiers and fictional sample feedback for demonstration purposes only.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         16. EVENTS AND CAMPUS ACTIVITIES (SAMPLE DEMONSTRATION EVENTS)
+         ==================================================================== -->
+    <section class="section-padding" id="events">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Sample Demonstration Events</span>
+          <h2 class="section-title">Learning Beyond the Classroom</h2>
+          <p class="section-subtitle">
+            Academic summits, workshops, and inter-team competitions that enrich management education.
+          </p>
+        </div>
+
+        <div class="events-grid">
+          <article class="event-card reveal">
+            <div class="ai-media event-media">
+              <img src="images/seminar.jpeg" alt="Business Leadership Summit in executive auditorium" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Business Leadership Summit</div>
+                <span class="ai-placeholder-tag">seminar.jpeg</span>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="event-date">Sample Date: Quarter 1 (Demo Event)</span>
+              <h3 class="event-title">Business Leadership Summit</h3>
+              <p class="event-desc">Interactive panel discussions exploring corporate governance, strategic resilience, and ethical leadership in emerging markets.</p>
+              <a href="campus-life.html#events" class="program-link">
+                Read More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="ai-media event-media">
+              <img src="images/campus-gallery-03.jpeg" alt="Entrepreneurship Workshop with MBA students" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Entrepreneurship Workshop</div>
+                <span class="ai-placeholder-tag">campus-gallery-03.jpeg</span>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="event-date">Sample Date: Quarter 2 (Demo Event)</span>
+              <h3 class="event-title">Entrepreneurship Workshop</h3>
+              <p class="event-desc">Hands-on sessions covering business model canvas design, venture validation, unit economics, and pitch deck structuring.</p>
+              <a href="campus-life.html#events" class="program-link">
+                Read More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="ai-media event-media">
+              <img src="images/campus-event.jpeg" alt="Marketing Strategy Competition presentation" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Marketing Strategy Competition</div>
+                <span class="ai-placeholder-tag">campus-event.jpeg</span>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="event-date">Sample Date: Quarter 3 (Demo Event)</span>
+              <h3 class="event-title">Marketing Strategy Competition</h3>
+              <p class="event-desc">Student teams formulate go-to-market campaigns, brand positioning strategies, and digital media plans for fictional case briefs.</p>
+              <a href="campus-life.html#events" class="program-link">
+                Read More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="ai-media event-media">
+              <img src="images/classroom.jpeg" alt="Finance and Investment Seminar in smart classroom" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Finance &amp; Investment Seminar</div>
+                <span class="ai-placeholder-tag">classroom.jpeg</span>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="event-date">Sample Date: Quarter 4 (Demo Event)</span>
+              <h3 class="event-title">Finance and Investment Seminar</h3>
+              <p class="event-desc">Analytical deep-dives into portfolio diversification, macroeconomic indicators, corporate valuation, and financial literacy.</p>
+              <a href="campus-life.html#events" class="program-link">
+                Read More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center">
+          <div class="demo-note">
+            All events listed above are sample demonstration events with fictional dates for website preview purposes.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         17. FAQ SECTION (8 INTERACTIVE ACCORDION ITEMS)
+         ==================================================================== -->
+    <section class="section-padding bg-light" id="faq">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Frequently Asked Questions</span>
+          <h2 class="section-title">Common Questions from MBA Aspirants</h2>
+          <p class="section-subtitle">
+            Informative guidance on postgraduate management education, eligibility, specializations, and career pathways in India.
+          </p>
+        </div>
+
+        <div class="faq-container reveal">
+          <!-- Q1 -->
+          <div class="faq-item active">
+            <button class="faq-trigger" type="button" aria-expanded="true">
+              <span>What is an MBA program?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                A Master of Business Administration (MBA) is a postgraduate management degree designed to equip students with foundational and advanced knowledge across business strategy, finance, marketing, human resources, operations, and analytics, alongside leadership and decision-making skills.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>What are the general eligibility criteria for MBA admission?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                In India, candidates generally require a Bachelor's degree of minimum three years duration in any discipline from a recognized university, qualifying academic scores as specified by the respective institution, and valid entrance examination scores or personal interaction performance where applicable.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>What specializations are available?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                This demonstration website showcases six popular MBA specializations: MBA in Finance, MBA in Marketing, MBA in Human Resource Management, MBA in Business Analytics, MBA in Operations Management, and MBA in International Business.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>What is the duration of an MBA program?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                Full-time postgraduate MBA programs in India are typically structured over two academic years (commonly divided into four semesters), combining core management courses in the first year with specialized electives and project work in the second year.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>Are entrance examinations required?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                Many MBA institutions in India consider scores from national or state-level management aptitude tests alongside undergraduate academic performance and personal interviews. Specific entrance test requirements depend on the policies of the respective institution.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q6 -->
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>What career opportunities are available after an MBA?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                MBA graduates pursue management and analyst roles across diverse sectors including Banking &amp; Finance, Consulting, Information Technology, Retail &amp; E-commerce, Manufacturing, Supply Chain, Healthcare Management, and Marketing &amp; Media.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q7 -->
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>What is placement assistance?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                Placement assistance refers to career preparation initiatives such as resume workshops, aptitude training, group discussion practice, mock interviews, and industry interaction sessions designed to help students prepare for corporate recruitment processes.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q8 -->
+          <div class="faq-item">
+            <button class="faq-trigger" type="button" aria-expanded="false">
+              <span>How can I apply for admission?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-content-inner">
+                You can explore the interactive Admission Enquiry Form below on this demonstration website to see how prospective applicants submit their initial academic profile and specialization preferences.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         18. ADMISSION ENQUIRY FORM (FRONTEND DEMO VALIDATION)
+         ==================================================================== -->
+    <section class="section-padding" id="admission-enquiry">
+      <div class="container">
+        <div class="enquiry-section-grid">
+          <div class="enquiry-info-panel reveal">
+            <span class="eyebrow">Admission Enquiry</span>
+            <h3>Take the First Step Towards Your Future</h3>
+            <p>
+              Interested in pursuing an MBA? Share your details to explore management education opportunities.
+            </p>
+
+            <div class="enquiry-highlights">
+              <div class="enquiry-highlight-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                <div>
+                  <strong>Six Core MBA Specializations</strong>
+                  <span>Finance, Marketing, HR, Business Analytics, Operations, and International Business.</span>
+                </div>
+              </div>
+              <div class="enquiry-highlight-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <div>
+                  <strong>Placeholder Demo Contact</strong>
+                  <span>Phone: 0000000000 | Email: demo@example.com</span>
+                </div>
+              </div>
+              <div class="enquiry-highlight-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <div>
+                  <strong>Office Hours (Demo)</strong>
+                  <span>Monday – Saturday, 9:00 AM – 5:00 PM</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="demo-note" style="margin-top:0;">
+              Demo form only. Your information is not transmitted or stored.
+            </div>
+          </div>
+
+          <div class="form-card reveal">
+            <form class="js-demo-form" novalidate>
+              <div class="form-grid">
+                <div class="form-group">
+                  <label class="form-label" for="enqFullName">Full Name <span class="req">*</span></label>
+                  <input type="text" id="enqFullName" name="fullName" class="form-control" placeholder="Enter your full name" required />
+                  <span class="error-msg">Please enter your full name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="enqMobile">Mobile Number <span class="req">*</span></label>
+                  <input type="tel" id="enqMobile" name="mobile" class="form-control" placeholder="10-digit Indian mobile number" maxlength="10" required />
+                  <span class="error-msg">Please enter a valid 10-digit Indian mobile number.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="enqEmail">Email Address <span class="req">*</span></label>
+                  <input type="email" id="enqEmail" name="email" class="form-control" placeholder="name@example.com" required />
+                  <span class="error-msg">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="enqCity">City <span class="req">*</span></label>
+                  <input type="text" id="enqCity" name="city" class="form-control" placeholder="e.g., Hyderabad, Bengaluru, Mumbai" required />
+                  <span class="error-msg">Please enter your city.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="enqQualification">Graduation Qualification <span class="req">*</span></label>
+                  <select id="enqQualification" name="qualification" class="form-control" required>
+                    <option value="">Select qualification</option>
+                    <option value="B.Com">B.Com / Bachelor of Commerce</option>
+                    <option value="BBA/BMS">BBA / BMS / Management</option>
+                    <option value="B.Tech/B.E.">B.Tech / B.E. / Engineering</option>
+                    <option value="B.Sc">B.Sc / Bachelor of Science</option>
+                    <option value="B.A.">B.A. / Bachelor of Arts</option>
+                    <option value="Other">Other Undergraduate Degree</option>
+                  </select>
+                  <span class="error-msg">Please select your graduation qualification.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="enqSpecialization">Preferred MBA Specialization <span class="req">*</span></label>
+                  <select id="enqSpecialization" name="specialization" class="form-control" required>
+                    <option value="">Select specialization</option>
+                    <option value="MBA in Finance">MBA in Finance</option>
+                    <option value="MBA in Marketing">MBA in Marketing</option>
+                    <option value="MBA in Human Resource Management">MBA in Human Resource Management</option>
+                    <option value="MBA in Business Analytics">MBA in Business Analytics</option>
+                    <option value="MBA in Operations Management">MBA in Operations Management</option>
+                    <option value="MBA in International Business">MBA in International Business</option>
+                  </select>
+                  <span class="error-msg">Please select a preferred MBA specialization.</span>
+                </div>
+
+                <div class="form-group full-width">
+                  <label class="form-label" for="enqPercentage">Graduation Percentage <span class="req">*</span></label>
+                  <input type="number" id="enqPercentage" name="percentage" class="form-control" placeholder="Enter percentage (e.g., 72.5)" min="35" max="100" step="0.1" required />
+                  <span class="error-msg">Please enter a valid graduation percentage between 35 and 100.</span>
+                </div>
+
+                <div class="form-group full-width">
+                  <label class="form-label" for="enqMessage">Message <span class="req">*</span></label>
+                  <textarea id="enqMessage" name="message" rows="3" class="form-control" placeholder="Share any questions regarding programs, eligibility, or campus facilities..." required></textarea>
+                  <span class="error-msg">Please enter a short message or enquiry.</span>
+                </div>
+              </div>
+
+              <div style="margin-top: 22px;">
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  Submit Admission Enquiry
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+
+              <div class="form-disclaimer">
+                Demo form only. Your information is not transmitted or stored.
+              </div>
+
+              <div class="form-success-alert" role="status" aria-live="polite">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Thank you! Your demonstration admission enquiry has been validated. (Demo form only: no data was transmitted or stored.)</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         19. CONTACT INFORMATION OVERVIEW
+         ==================================================================== -->
+    <section class="section-padding bg-light" id="contact-overview">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Contact Us</span>
+          <h2 class="section-title">Get in Touch With Our Office</h2>
+          <p class="section-subtitle">
+            All contact details below are dummy placeholders created strictly for demonstration purposes.
+          </p>
+        </div>
+
+        <div class="contact-cards-grid">
+          <div class="contact-info-card reveal">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <h3>Telephone (Demo)</h3>
+            <p>Phone: 0000000000</p>
+            <p>Alternative Phone: 0000000000</p>
+          </div>
+
+          <div class="contact-info-card reveal">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <h3>Email Address (Demo)</h3>
+            <p><a href="mailto:demo@example.com">demo@example.com</a></p>
+            <p>General &amp; Admission Enquiries</p>
+          </div>
+
+          <div class="contact-info-card reveal">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3>Campus Address (Demo)</h3>
+            <p>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</p>
+          </div>
+
+          <div class="contact-info-card reveal">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Working Hours</h3>
+            <p>Monday – Saturday</p>
+            <p>9:00 AM – 5:00 PM</p>
+          </div>
+        </div>
+
+        <!-- CSS-Based Location Illustration -->
+        <div class="css-map-illustration reveal" role="img" aria-label="CSS-based location illustration showing placeholder address Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000">
+          <div class="map-grid-lines"></div>
+          <div class="map-road-h"></div>
+          <div class="map-road-v"></div>
+          <div class="map-pin-card">
+            <div class="map-pin-pulse">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h4>MBA COLLEGE – DEMO LOCATION</h4>
+            <p>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</p>
+            <span class="map-pin-badge">CSS Location Illustration • Placeholder Only</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====================================================================
+       LIGHTBOX MODAL FOR CAMPUS GALLERY
+       ==================================================================== -->
+  <div class="lightbox-modal" id="campusLightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="lightboxTitle">
+    <div class="lightbox-dialog">
+      <button type="button" class="lightbox-close" aria-label="Close Lightbox">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="lightbox-media-box"></div>
+      <div class="lightbox-footer">
+        <div>
+          <h3 id="lightboxTitle">Campus Showcase</h3>
+          <p id="lightboxSubtitle">Fictional Demonstration Environment</p>
+        </div>
+        <div class="lightbox-nav-btns">
+          <button type="button" class="lightbox-nav-btn" data-lightbox-prev aria-label="Previous Image">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button type="button" class="lightbox-nav-btn" data-lightbox-next aria-label="Next Image">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====================================================================
+       20. FOOTER DESIGN (CONSISTENT ACROSS ALL PAGES)
+       ==================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Column 1 -->
+        <div>
+          <a href="index.html" class="brand-logo">
+            <span class="brand-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </span>
+            <span class="footer-brand-title">MBA COLLEGE WEBSITE</span>
+          </a>
+          <p class="footer-desc">
+            A modern, multi-page management education website demonstration showcasing academic programs, admissions, placements, faculty, and campus life for Indian educational institutions.
+          </p>
+          <!-- Decorative Social Media Icons Only (No external college links) -->
+          <div class="social-decorative" aria-label="Decorative social media icons">
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </span>
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </span>
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </span>
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </span>
+          </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div>
+          <h3 class="footer-heading">Academic Links</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="placements.html">Placements</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div>
+          <h3 class="footer-heading">Campus &amp; Community</h3>
+          <ul class="footer-links">
+            <li><a href="campus-life.html">Campus Life</a></li>
+            <li><a href="about.html#faculty">Faculty</a></li>
+            <li><a href="campus-life.html#events">Events</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div>
+          <h3 class="footer-heading">Contact Details (Demo)</h3>
+          <ul class="footer-contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Phone: 0000000000</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email: <a href="mailto:demo@example.com">demo@example.com</a></span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Address: Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer-box">
+        <p class="footer-disclaimer-text">
+          This is a fictional educational website demonstration. All institutional details, statistics, faculty profiles, student testimonials, placement information, and campus facilities are illustrative and do not represent an actual educational institution.
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 MBA College Website. Demo Website – All Rights Reserved.</div>
+        <div>Designed for Management Education Website Demonstration</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Demo Toast Notification -->
+  <div class="demo-toast" id="demoToast" role="status" aria-live="polite"></div>
+
+  <!-- Shared Vanilla JavaScript -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

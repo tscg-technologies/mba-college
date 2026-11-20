@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Life | MBA College Website | Management Education Demo</title>
+  <meta name="description" content="Explore campus life, smart classrooms, seminar hall, library, student collaboration, cultural events, and workshops in this MBA college website demo." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Campus Life | MBA College Website" />
+  <meta property="og:description" content="Explore our campus gallery, student activities, and demonstration events in this Indian MBA college website demo." />
+  <meta property="og:image" content="images/student-life.jpeg" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Shared Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body>
+
+  <!-- Consistent Sticky Header -->
+    <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="MBA College Home">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </span>
+        <span class="brand-text">MBA COLLEGE</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="programs.html" class="nav-link">Programs</a></li>
+          <li><a href="admissions.html" class="nav-link">Admissions</a></li>
+          <li class="nav-item-dropdown">
+            <a href="about.html" class="nav-link dropdown-toggle active" id="dropdownExplore" role="button" aria-haspopup="true" aria-expanded="false">
+              <span>Explore</span>
+              <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownExplore">
+              <li>
+                <a href="about.html" class="dropdown-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                  <span>About Us</span>
+                </a>
+              </li>
+              <li>
+                <a href="placements.html" class="dropdown-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                  <span>Placements</span>
+                </a>
+              </li>
+              <li>
+                <a href="campus-life.html" class="dropdown-item active">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+                  <span>Campus Life</span>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" class="dropdown-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>Contact Us</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a href="#student-portal" class="dropdown-item dropdown-portal" data-demo-notice="Student Portal is a demonstration link. No institutional login backend is connected in this demo.">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <span>Student Portal</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="mobile-nav-cta">
+          <a href="admissions.html#admission-enquiry" class="btn btn-primary">Apply Now</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="admissions.html#admission-enquiry" class="btn btn-primary btn-sm">Apply Now</a>
+        <button class="menu-toggle" type="button" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-box">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="sep">/</span>
+          <span aria-current="page">Campus Life</span>
+        </nav>
+        <h1>Campus Life</h1>
+        <p>Experience a collaborative academic environment featuring smart classrooms, executive seminar halls, library spaces, and student-led management workshops.</p>
+      </div>
+    </section>
+
+    <!-- 14. Campus Life Gallery (8 items with Lightbox) -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Campus Life</span>
+          <h2 class="section-title">Experience Life Beyond the Classroom</h2>
+          <p class="section-subtitle">
+            Click on any card below to open the interactive lightbox view. All images represent fictional demonstration environments.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- 1. Modern College Campus -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Modern College Campus" data-subtitle="Fictional Demonstration Environment • Architectural Exterior">
+            <div class="ai-media">
+              <img src="images/campus-gallery-01.jpeg" alt="Modern College Campus exterior with landscaped lawns" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Modern College Campus</div>
+                <span class="ai-placeholder-tag">campus-gallery-01.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Modern College Campus</h3>
+              <span class="gallery-caption-sub">Contemporary Architecture</span>
+            </div>
+          </div>
+
+          <!-- 2. Smart Classrooms -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Smart Classrooms" data-subtitle="Fictional Demonstration Environment • Interactive Learning">
+            <div class="ai-media">
+              <img src="images/classroom.jpeg" alt="Smart Classroom with tiered seating and interactive audio-visual setup" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Smart Classrooms</div>
+                <span class="ai-placeholder-tag">classroom.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Smart Classrooms</h3>
+              <span class="gallery-caption-sub">Interactive Case Discussions</span>
+            </div>
+          </div>
+
+          <!-- 3. Seminar Hall -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Seminar Hall" data-subtitle="Fictional Demonstration Environment • Executive Conferences">
+            <div class="ai-media">
+              <img src="images/seminar.jpeg" alt="Modern Seminar Hall and auditorium for academic conferences" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Seminar Hall</div>
+                <span class="ai-placeholder-tag">seminar.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Seminar Hall</h3>
+              <span class="gallery-caption-sub">Conferences &amp; Guest Lectures</span>
+            </div>
+          </div>
+
+          <!-- 4. Library and Study Spaces -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Library and Study Spaces" data-subtitle="Fictional Demonstration Environment • Knowledge Resource Centre">
+            <div class="ai-media">
+              <img src="images/library.jpeg" alt="Library and Study Spaces with management books and digital terminals" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Library and Study Spaces</div>
+                <span class="ai-placeholder-tag">library.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Library and Study Spaces</h3>
+              <span class="gallery-caption-sub">Academic &amp; Digital Resources</span>
+            </div>
+          </div>
+
+          <!-- 5. Student Collaboration -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Student Collaboration" data-subtitle="Fictional Demonstration Environment • Peer Learning">
+            <div class="ai-media">
+              <img src="images/student-life.jpeg" alt="MBA students collaborating on business projects in a modern lounge" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Student Collaboration</div>
+                <span class="ai-placeholder-tag">student-life.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Student Collaboration</h3>
+              <span class="gallery-caption-sub">Teamwork &amp; Peer Learning</span>
+            </div>
+          </div>
+
+          <!-- 6. Cultural Events -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Cultural Events" data-subtitle="Fictional Demonstration Environment • Student Celebrations">
+            <div class="ai-media">
+              <img src="images/campus-gallery-02.jpeg" alt="Cultural Events and student celebrations on campus" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Cultural Events</div>
+                <span class="ai-placeholder-tag">campus-gallery-02.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Cultural Events</h3>
+              <span class="gallery-caption-sub">Vibrant Campus Community</span>
+            </div>
+          </div>
+
+          <!-- 7. Management Workshops -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Management Workshops" data-subtitle="Fictional Demonstration Environment • Executive Skill Sessions">
+            <div class="ai-media">
+              <img src="images/campus-gallery-03.jpeg" alt="Management Workshops and executive round-table sessions" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Management Workshops</div>
+                <span class="ai-placeholder-tag">campus-gallery-03.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Management Workshops</h3>
+              <span class="gallery-caption-sub">Leadership &amp; Strategy Labs</span>
+            </div>
+          </div>
+
+          <!-- 8. Sports and Recreation -->
+          <div class="gallery-item reveal" tabindex="0" role="button" data-title="Sports and Recreation" data-subtitle="Fictional Demonstration Environment • Wellness &amp; Athletics">
+            <div class="ai-media">
+              <img src="images/campus-gallery-04.jpeg" alt="Sports and Recreation facilities on college campus" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Sports and Recreation</div>
+                <span class="ai-placeholder-tag">campus-gallery-04.jpeg</span>
+              </div>
+            </div>
+            <div class="gallery-caption-overlay">
+              <span class="gallery-zoom-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <h3 class="gallery-caption-title">Sports and Recreation</h3>
+              <span class="gallery-caption-sub">Fitness &amp; Outdoor Courts</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <div class="demo-note">
+            Note: All gallery images represent fictional demonstration environments.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 16. Events and Campus Activities -->
+    <section class="section-padding bg-light" id="events">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Sample Demonstration Events</span>
+          <h2 class="section-title">Learning Beyond the Classroom</h2>
+          <p class="section-subtitle">
+            Four sample demonstration events illustrating co-curricular business competitions, seminars, and leadership summits.
+          </p>
+        </div>
+
+        <div class="events-grid">
+          <article class="event-card reveal">
+            <div class="ai-media event-media">
+              <img src="images/seminar.jpeg" alt="Business Leadership Summit in executive auditorium" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Business Leadership Summit</div>
+                <span class="ai-placeholder-tag">seminar.jpeg</span>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="event-date">Sample Date: Quarter 1 (Demo Event)</span>
+              <h3 class="event-title">Business Leadership Summit</h3>
+              <p class="event-desc">Interactive panel discussions exploring corporate governance, strategic resilience, and ethical leadership in emerging markets.</p>
+              <a href="admissions.html#admission-enquiry" class="program-link">
+                Read More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="ai-media event-media">
+              <img src="images/campus-gallery-03.jpeg" alt="Entrepreneurship Workshop with MBA students" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Entrepreneurship Workshop</div>
+                <span class="ai-placeholder-tag">campus-gallery-03.jpeg</span>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="event-date">Sample Date: Quarter 2 (Demo Event)</span>
+              <h3 class="event-title">Entrepreneurship Workshop</h3>
+              <p class="event-desc">Hands-on sessions covering business model canvas design, venture validation, unit economics, and pitch deck structuring.</p>
+              <a href="admissions.html#admission-enquiry" class="program-link">
+                Read More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="ai-media event-media">
+              <img src="images/campus-event.jpeg" alt="Marketing Strategy Competition presentation" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Marketing Strategy Competition</div>
+                <span class="ai-placeholder-tag">campus-event.jpeg</span>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="event-date">Sample Date: Quarter 3 (Demo Event)</span>
+              <h3 class="event-title">Marketing Strategy Competition</h3>
+              <p class="event-desc">Student teams formulate go-to-market campaigns, brand positioning strategies, and digital media plans for fictional case briefs.</p>
+              <a href="admissions.html#admission-enquiry" class="program-link">
+                Read More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="ai-media event-media">
+              <img src="images/classroom.jpeg" alt="Finance and Investment Seminar in smart classroom" />
+              <div class="ai-placeholder-ui" aria-hidden="true">
+                <div class="ai-placeholder-title">Finance &amp; Investment Seminar</div>
+                <span class="ai-placeholder-tag">classroom.jpeg</span>
+              </div>
+            </div>
+            <div class="event-body">
+              <span class="event-date">Sample Date: Quarter 4 (Demo Event)</span>
+              <h3 class="event-title">Finance and Investment Seminar</h3>
+              <p class="event-desc">Analytical deep-dives into portfolio diversification, macroeconomic indicators, corporate valuation, and financial literacy.</p>
+              <a href="admissions.html#admission-enquiry" class="program-link">
+                Read More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center">
+          <div class="demo-note">
+            All events shown above are sample demonstration events with fictional sample dates.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="campusLightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="lightboxTitle">
+    <div class="lightbox-dialog">
+      <button type="button" class="lightbox-close" aria-label="Close Lightbox">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="lightbox-media-box"></div>
+      <div class="lightbox-footer">
+        <div>
+          <h3 id="lightboxTitle">Campus Showcase</h3>
+          <p id="lightboxSubtitle">Fictional Demonstration Environment</p>
+        </div>
+        <div class="lightbox-nav-btns">
+          <button type="button" class="lightbox-nav-btn" data-lightbox-prev aria-label="Previous Image">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button type="button" class="lightbox-nav-btn" data-lightbox-next aria-label="Next Image">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Consistent Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo">
+            <span class="brand-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </span>
+            <span class="footer-brand-title">MBA COLLEGE WEBSITE</span>
+          </a>
+          <p class="footer-desc">
+            A modern, multi-page management education website demonstration showcasing academic programs, admissions, placements, faculty, and campus life for Indian educational institutions.
+          </p>
+          <div class="social-decorative" aria-label="Decorative social media icons">
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </span>
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </span>
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </span>
+            <span class="social-icon-box" title="Decorative Icon Only" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </span>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Academic Links</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="placements.html">Placements</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Campus &amp; Community</h3>
+          <ul class="footer-links">
+            <li><a href="campus-life.html">Campus Life</a></li>
+            <li><a href="about.html#faculty">Faculty</a></li>
+            <li><a href="campus-life.html#events">Events</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Contact Details (Demo)</h3>
+          <ul class="footer-contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Phone: 0000000000</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email: <a href="mailto:demo@example.com">demo@example.com</a></span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Address: Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer-box">
+        <p class="footer-disclaimer-text">
+          This is a fictional educational website demonstration. All institutional details, statistics, faculty profiles, student testimonials, placement information, and campus facilities are illustrative and do not represent an actual educational institution.
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 MBA College Website. Demo Website – All Rights Reserved.</div>
+        <div>Designed for Management Education Website Demonstration</div>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+  <div class="demo-toast" id="demoToast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

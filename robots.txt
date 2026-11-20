@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# MBA College Website - Demonstration Sitemap
+Sitemap: https://example.com/sitemap.xml

@@ -1,0 +1,298 @@
+/* ==========================================================================
+   MBA COLLEGE WEBSITE - RESPONSIVE STYLESHEET
+   Covers Desktop, Laptop, Tablet, Android & iPhone Viewports
+   ========================================================================== */
+
+/* Laptop & Large Tablet (max-width: 1199px) */
+@media (max-width: 1199px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 44px;
+  }
+
+  .hero-visual-panel {
+    max-width: 760px;
+  }
+
+  .programs-grid,
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .faculty-grid,
+  .events-grid,
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sectors-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablet & Mobile Navigation Breakpoint (max-width: 991px) */
+@media (max-width: 991px) {
+  .section-padding {
+    padding: 72px 0;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 84px;
+    left: 0;
+    right: 0;
+    background-color: var(--color-navy);
+    border-bottom: 2px solid var(--color-gold);
+    padding: 24px;
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.4);
+    transform: translateY(-15px);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: var(--transition-fast);
+    flex-direction: column;
+    align-items: stretch;
+    max-height: calc(100vh - 84px);
+    overflow-y: auto;
+  }
+
+  .main-nav.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 13px 16px;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  /* Mobile Dropdown Styling */
+  .nav-item-dropdown {
+    width: 100%;
+  }
+
+  .nav-item-dropdown .dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-item-dropdown .dropdown-menu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.03);
+    border: none;
+    border-left: 2px solid var(--color-gold);
+    border-radius: 0;
+    margin: 4px 0 8px 12px;
+    padding: 6px 0;
+    display: none;
+  }
+
+  .nav-item-dropdown.open .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-item {
+    padding: 10px 14px;
+    font-size: 0.94rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  }
+
+  .header-actions .portal-link,
+  .header-actions .btn {
+    display: none;
+  }
+
+  .mobile-nav-cta {
+    display: flex !important;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .mobile-nav-cta .portal-link {
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-grid,
+  .placement-top-grid,
+  .enquiry-section-grid,
+  .eligibility-card {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .about-accent-badge {
+    position: static;
+    margin-top: 16px;
+    max-width: 100%;
+  }
+
+  /* Vertical Timeline on Mobile/Tablet */
+  .timeline-steps {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .timeline-steps::before {
+    top: 20px;
+    bottom: 20px;
+    left: 26px;
+    right: auto;
+    width: 2px;
+    height: auto;
+    display: none;
+  }
+
+  .timeline-step {
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 20px;
+  }
+
+  .step-badge {
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Smartphones (max-width: 767px) */
+@media (max-width: 767px) {
+  .container {
+    padding: 0 18px;
+  }
+
+  .section-padding {
+    padding: 58px 0;
+  }
+
+  .header-inner {
+    height: 74px;
+  }
+
+  .main-nav {
+    top: 74px;
+    max-height: calc(100vh - 74px);
+  }
+
+  .hero-section {
+    padding: 56px 0 72px;
+    min-height: auto;
+  }
+
+  .hero-floating-cards {
+    grid-template-columns: 1fr;
+    margin-top: 14px;
+    padding: 0;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .programs-grid,
+  .features-grid,
+  .faculty-grid,
+  .events-grid,
+  .gallery-grid,
+  .contact-cards-grid,
+  .mv-cards,
+  .placement-stats-grid,
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sectors-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .eligibility-content,
+  .eligibility-aside,
+  .enquiry-info-panel,
+  .form-card {
+    padding: 28px 20px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .lightbox-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Small Smartphones (max-width: 480px) */
+@media (max-width: 480px) {
+  .stats-grid,
+  .sectors-grid,
+  .program-subjects {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-text {
+    font-size: 1.08rem;
+  }
+}
+
+/* Hide mobile-only CTA block on Desktop */
+@media (min-width: 992px) {
+  .mobile-nav-cta {
+    display: none !important;
+  }
+}
